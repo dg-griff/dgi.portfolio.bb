@@ -16,7 +16,7 @@
   }
   
   a {
-    color: #fed136;
+    color: rgb(64,224,208);
   }
   
   a:hover {
@@ -73,23 +73,23 @@
   }
   
   .btn-primary {
-    background-color: #fed136;
-    border-color: #fed136;
+    background-color: rgb(64,224,208);
+    border-color: rgb(64,224,208);
   }
   
   .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-    background-color: #fec810 !important;
-    border-color: #fec810 !important;
+    background-color: rgb(64,224,208) !important;
+    border-color: rgb(64,224,208) !important;
     color: white;
   }
   
   .btn-primary:active, .btn-primary:focus {
-    -webkit-box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
-    box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(64, 224, 208, 0.5) !important;
+    box-shadow: 0 0 0 0.2rem rgba(64, 224, 208, 0.5) !important;
   }
   
   ::selection {
-    background: #fed136;
+    background: rgb(64,224,208);
     text-shadow: none;
   }
   
@@ -112,17 +112,17 @@
     text-transform: uppercase;
     color: white;
     border: 0;
-    background-color: #fed136;
+    background-color: rgb(64,224,208);
     font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   }
   
   #mainNav .navbar-brand {
-    color: #fed136;
+    color: rgb(64,224,208);
     font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   }
   
   #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-    color: #fec503;
+    color: rgb(64,224,208);
   }
   
   #mainNav .navbar-nav .nav-item .nav-link {
@@ -135,7 +135,7 @@
   }
   
   #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: #fed136;
+    color: rgb(64,224,208);
   }
   
   @media (min-width: 992px) {
@@ -595,7 +595,7 @@
   }
   
   section#contact .section-heading {
-    color: #fff;
+    color: rgb(64,224,208);
   }
   
   section#contact .form-group {
@@ -616,7 +616,7 @@
   }
   
   section#contact .form-control:focus {
-    border-color: #fed136;
+    border-color: rgb(64,224,208);
     -webkit-box-shadow: none;
     box-shadow: none;
   }
@@ -684,7 +684,7 @@
   }
   
   ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-    background-color: #fed136;
+    background-color: rgb(64,224,208);
   }
 
   .thumb {
@@ -711,3 +711,7 @@ img.vertical {
     justify-content: center;
     margin-right: 15px;
 } */
+
+h2 {
+  color: rgb(64,224,208);
+}
