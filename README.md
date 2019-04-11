@@ -1,2 +1,2 @@
 # dgi.portfolio.bb
-Web Developer Portfolio
+DGtronicz® Web Developer Portfolio
