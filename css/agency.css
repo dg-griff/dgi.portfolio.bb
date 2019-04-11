@@ -686,4 +686,28 @@
   ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
     background-color: #fed136;
   }
+
+  .thumb {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 450px;
+    height: 450px;
+  }
   
+  .thumb:hover {
+    box-shadow: 0 0 5px 5px rgba(64, 224, 208, 1);
+  }
+  
+/* img.horizontal {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+img.vertical {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 15px;
+} */
