@@ -22,7 +22,7 @@
   }
   
   a:hover {
-    color: #fec503;
+    color: springgreen;
   }
   
   /* .text-primary {
@@ -296,7 +296,7 @@
     font-style: italic;
     margin: 15px 0 0 0;
     color: white;
-    font-family: font-family: 'Montserrat', 'Helvetica Neue', 'Arial', sans-serif;
+    font-family: 'Montserrat', 'Helvetica Neue', 'Arial', sans-serif;
   }
   
   #portfolio * {
@@ -738,6 +738,7 @@ h2 {
 
 #textintro {
   color: white;
+  font-family: 'Montserrat', 'Helvetica Neue', 'Arial', sans-serif;
 }
 
 img#brandlogo {
@@ -752,4 +753,9 @@ img#brandlogo {
   #mainNav {
     background-color: black;
   }  
+}
+
+#contact-info {
+  color: white;
+  font-family: 'Montserrat', 'Helvetica Neue', 'Arial', sans-serif;
 }
