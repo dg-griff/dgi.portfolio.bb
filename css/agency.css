@@ -4,6 +4,8 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
  */
 
+ @import url('https://fonts.googleapis.com/css?family=Orbitron:bold|Permanent+Marker|Russo+One|Special+Elite|Quantico:bold|Acme|Exo+2:400,700|Montserrat:400,500,600,700|Play|Roboto:400,700|Ubuntu:400,700');
+
  body {
     overflow-x: hidden;
     font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
@@ -53,7 +55,8 @@
     font-style: italic;
     margin-bottom: 75px;
     text-transform: none;
-    font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    color: white;
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   }
   
   @media (min-width: 768px) {
@@ -108,17 +111,20 @@
   #mainNav .navbar-toggler {
     font-size: 12px;
     right: 0;
-    padding: 13px;
+    padding: 0;
     text-transform: uppercase;
     color: white;
     border: 0;
     background-color: rgb(64,224,208);
-    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-family: 'Orbitron', 'Helvetica Neue', 'Arial', sans-serif;
   }
   
   #mainNav .navbar-brand {
     color: rgb(64,224,208);
-    font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    background-color: black;
+    font-family: 'Quantico', 'Helvetica Neue', 'Arial', sans-serif;
+    margin: 10px 0 0 10px;
+    /* height: 1.0em; */
   }
   
   #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
@@ -128,10 +134,10 @@
   #mainNav .navbar-nav .nav-item .nav-link {
     font-size: 90%;
     font-weight: 400;
-    padding: 0.75em 0;
+    padding: 0;
     letter-spacing: 1px;
     color: white;
-    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-family: 'Orbitron', 'Helvetica Neue', 'Arial', sans-serif;
   }
   
   #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
@@ -145,7 +151,7 @@
       -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
       transition: padding-top 0.3s, padding-bottom 0.3s;
       border: none;
-      background-color: transparent;
+      background-color: black;
     }
     #mainNav .navbar-brand {
       font-size: 1.75em;
@@ -158,7 +164,7 @@
     #mainNav.navbar-shrink {
       padding-top: 0;
       padding-bottom: 0;
-      background-color: #212529;
+      background-color: black;
     }
     #mainNav.navbar-shrink .navbar-brand {
       font-size: 1.25em;
@@ -174,6 +180,7 @@
     background-attachment: scroll;
     background-position: center center;
     background-size: cover;
+    background-color: #212529;
   }
   
   header.masthead .intro-text {
@@ -275,7 +282,7 @@
     margin: 0 auto;
     padding: 25px;
     text-align: center;
-    background-color: #fff;
+    background-color: black;
   }
   
   #portfolio .portfolio-item .portfolio-caption h4 {
@@ -286,12 +293,19 @@
   #portfolio .portfolio-item .portfolio-caption p {
     font-size: 16px;
     font-style: italic;
-    margin: 0;
-    font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    margin: 15px 0 0 0;
+    color: white;
+    font-family: font-family: 'Montserrat', 'Helvetica Neue', 'Arial', sans-serif;
   }
   
   #portfolio * {
     z-index: 2;
+  }
+
+  #portfolio .portfolio-item .portfolio-caption:hover{
+    color: rgb(64,224,208);
+    background-color: black;
+    border-color: black;
   }
   
   @media (min-width: 767px) {
@@ -714,4 +728,16 @@ img.vertical {
 
 h2 {
   color: rgb(64,224,208);
+}
+
+#showbutton {
+  color: black;
+}
+
+#textintro {
+  color: white;
+}
+
+img#brandlogo {
+  size: 3.0em;
 }

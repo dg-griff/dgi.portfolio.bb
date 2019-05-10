@@ -5,24 +5,25 @@
     <head>
 
             <meta charset="utf-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+            <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" /> 
+            <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" /> -->
           
             <title>DGtronicz® Portfolio</title>
 
             <!-- Required to add favicon image in page tab -->
-            <link rel="apple-touch-icon-precomposed" sizes="57x57" href="apple-touch-icon-57x57.png" />
-            <link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114x114.png" />
-            <link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72x72.png" />
-            <link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144x144.png" />
-            <link rel="apple-touch-icon-precomposed" sizes="60x60" href="apple-touch-icon-60x60.png" />
-            <link rel="apple-touch-icon-precomposed" sizes="120x120" href="apple-touch-icon-120x120.png" />
-            <link rel="apple-touch-icon-precomposed" sizes="76x76" href="apple-touch-icon-76x76.png" />
-            <link rel="apple-touch-icon-precomposed" sizes="152x152" href="apple-touch-icon-152x152.png" />
-            <link rel="icon" type="image/png" href="favicon-196x196.png" sizes="196x196" />
-            <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96" />
-            <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
-            <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
-            <link rel="icon" type="image/png" href="favicon-128.png" sizes="128x128" />
+            <link rel="apple-touch-icon-precomposed" sizes="57x57" href="img/apple-touch-icon-57x57.png" />
+            <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114x114.png" />
+            <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72x72.png" />
+            <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144x144.png" />
+            <link rel="apple-touch-icon-precomposed" sizes="60x60" href="img/apple-touch-icon-60x60.png" />
+            <link rel="apple-touch-icon-precomposed" sizes="120x120" href="img/apple-touch-icon-120x120.png" />
+            <link rel="apple-touch-icon-precomposed" sizes="76x76" href="img/apple-touch-icon-76x76.png" />
+            <link rel="apple-touch-icon-precomposed" sizes="152x152" href="img/apple-touch-icon-152x152.png" />
+            <link rel="icon" type="image/png" href="img/favicon-196x196.png" sizes="196x196" />
+            <link rel="icon" type="image/png" href="img/favicon-96x96.png" sizes="96x96" />
+            <link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32" />
+            <link rel="icon" type="image/png" href="img/favicon-16x16.png" sizes="16x16" />
+            <link rel="icon" type="image/png" href="img/favicon-128.png" sizes="128x128" />
             <meta name="application-name" content="&nbsp;"/>
             <meta name="msapplication-TileColor" content="#FFFFFF" />
             <meta name="msapplication-TileImage" content="mstile-144x144.png" />
@@ -54,7 +55,8 @@
         <!-- Navigation -->
         <nav class="navbar navbar-expand-xl navbar-dark fixed-top" id="mainNav">
         <div class="container">
-          <a class="navbar-brand js-scroll-trigger" href="#page-top" id="heading">DGtronicz® Portfolio</a>
+          <a href="index.html"><img src="img/apple-touch-icon-57x57.png" alt=""></a>
+          <a class="navbar-brand js-scroll-trigger" href="#page-top" id="heading">Portfolio</a>
           
           <!-- Use fontawesome icons to create hamburger menu -->
           <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -68,7 +70,7 @@
                 <a class="nav-link js-scroll-trigger" href="#services">Services</a>
               </li> -->
               <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+                <a class="nav-link js-scroll-trigger" id="navheading" href="#portfolio">Portfolio</a>
               </li>
               <!-- <li class="nav-item">
                 <a class="nav-link js-scroll-trigger" href="#about">About</a>
@@ -77,7 +79,7 @@
                 <a class="nav-link js-scroll-trigger" href="#team">Team</a>
               </li> -->
               <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+                <a class="nav-link js-scroll-trigger" href="#contact" id="navheading">Contact</a>
               </li>
             </ul>
           </div>
@@ -90,9 +92,9 @@
           <div class="intro-text">
             <img src="img/dgi-wordmark.png" class="img-fluid" alt="">
             <br><br>
-            <div class="intro-lead-in">Welcome to the DGtronicz® Portfolio!</div>
-            <div class="intro-heading text-uppercase">Feel free to take a look!</div>
-            <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#portfolio">Show me more!</a>
+            <div class="intro-lead-in" id="textintro">Welcome to the DGtronicz® Portfolio!</div>
+            <div class="intro-lead-in" id="textintro">Feel free to take a look!</div>
+            <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" id="showbutton" href="#portfolio">Show me more!</a>
           </div>
         </div>
         </header>
@@ -103,7 +105,7 @@
           <div class="row">
             <div class="col-lg-12 text-center">
               <h2 class="section-heading text-uppercase">Portfolio</h2>
-              <h3 class="section-subheading text-muted">A collection of websites we have built.</h3>
+              <h3 class="section-subheading text-muted" id="textintro">A collection of websites we have built.</h3>
             </div>
           </div>
           <div class="row">
@@ -115,11 +117,11 @@
                   </div>
                 </div> -->
                 <a href="https://dg-griff.github.io/windiescricket246/" title="Click image to visit website!" style="width:300px">
-                <img class="img-fluid thumb" src="img/wi_246.jpg" alt=""></a>
+                <img class="img-fluid thumb" src="img/wi_246.jpg" width="216" height="336" alt=""></a>
               </a>
               <div class="portfolio-caption">
                 <h4>Windies Cricket 246</h4>
-                <p class="text-muted">Cricket fan site</p>
+                <p>A fansite about Barbadians who play test cricket for the West Indies cricket team.</p>
               </div>
             </div>
             <div class="col-md-4 col-sm-6 portfolio-item">
@@ -130,11 +132,11 @@
                   </div>
                 </div> -->
                 <a href="https://dg-griff.github.io/prime.dgi.bb/" title="Click image to visit website!" style="width:300px">
-                <img class="img-fluid thumb" src="img/dgi_prime.jpg" alt=""></a>
+                <img class="img-fluid thumb" src="img/dgi_prime.jpg" width="243" height="336" alt=""></a>
               </a>
               <div class="portfolio-caption">
                 <h4>DGtronicz® Official</h4>
-                <p class="text-muted">One-page layout</p>
+                <p>A promotional website for an ICT firm by the name of DGtronicz&reg;, done in a one-page layout.</p>
               </div>
             </div>
             <div class="col-md-4 col-sm-6 portfolio-item">
@@ -145,11 +147,11 @@
                   </div>
                 </div> -->
                 <a href="https://dg-griff.github.io/dgi.bb/" title="Click image to visit website!" style="width:300px">
-                <img class="img-fluid thumb" src="img/dgi_bb.jpg" alt=""></a>
+                <img class="img-fluid thumb" src="img/dgi_bb.jpg" width="210" height="336" alt=""></a>
               </a>
-              <div class="portfolio-caption">
+              <div class="portfolio-caption" id="summary">
                 <h4>DGtronicz® Alternate</h4>
-                <p class="text-muted">Standard layout</p>
+                <p>An alternate promotional website for an ICT firm by the name of DGtronicz&reg;, done in a traditional multi-page layout.</p>
               </div>
             </div>
             <!-- <div class="col-md-4 col-sm-6 portfolio-item">
@@ -234,7 +236,7 @@
               <div class="clearfix"></div>
               <div class="col-lg-12 text-center">
                 <div id="success"></div>
-                <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Send Message</button>
+                <button class="btn btn-primary btn-xl text-uppercase" type="submit" id="showbutton">Send Message</button>
               </div>
             </div>
           </form>
