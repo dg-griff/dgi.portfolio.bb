@@ -759,3 +759,88 @@ img#brandlogo {
   color: white;
   font-family: 'Montserrat', 'Helvetica Neue', 'Arial', sans-serif;
 }
+
+#texthead {
+  color: rgb(64,224,208);
+  font-family: 'Montserrat', 'Helvetica Neue', 'Arial', sans-serif;
+}
+
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+} 
+
+#animate {
+  /* width: 100px; */
+  /* height: 100px;  */
+  position: relative;
+  /* background-color: red;  */
+  animation-name: zoomIn;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+#container{
+  height: 100%;
+}
+
+.wrapper {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.label {
+color: white;
+}
+
+@keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.wrapper {
+  color: salmon;
+  text-align: center;
+  /* width: 100px; */
+  /* height: 100px; */
+  /* position: relative; */
+  background-color: black;
+  animation-name: pulse;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+#pageName {
+color: salmon;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 100px; */
+  /* height: 100px; */
+  /* position: relative; */
+  background-color: black;
+  width: fit-content;
+  animation-name: pulse;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
