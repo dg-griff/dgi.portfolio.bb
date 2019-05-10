@@ -110,7 +110,7 @@
   
   /* Hamburger menu button */
   #mainNav .navbar-toggler {
-    font-size: 1.0em;
+    font-size: 0.80em;
     padding: 0;
     text-transform: uppercase;
     color: rgb(64,224,208);
