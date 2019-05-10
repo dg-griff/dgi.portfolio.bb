@@ -59,11 +59,11 @@
     font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   }
   
-  @media (min-width: 768px) {
+   @media (min-width: 768px) {
     section {
-      padding: 150px 0;
+      padding: 150px 0; 
     }
-  }
+  } 
   
   .btn {
     font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
@@ -108,21 +108,22 @@
     background-color: #212529;
   }
   
+  /* Hamburger menu button */
   #mainNav .navbar-toggler {
-    font-size: 12px;
-    right: 0;
+    font-size: 1.25em;
     padding: 0;
     text-transform: uppercase;
-    color: white;
+    color: rgb(64,224,208);
     border: 0;
-    background-color: rgb(64,224,208);
+    background-color: black;
     font-family: 'Orbitron', 'Helvetica Neue', 'Arial', sans-serif;
+    margin: 10px 0 0 0;
   }
   
   #mainNav .navbar-brand {
     color: rgb(64,224,208);
     background-color: black;
-    font-family: 'Quantico', 'Helvetica Neue', 'Arial', sans-serif;
+    font-family: 'Ubuntu', 'Helvetica Neue', 'Arial', sans-serif;
     margin: 10px 0 0 10px;
     /* height: 1.0em; */
   }
@@ -146,8 +147,8 @@
   
   @media (min-width: 992px) {
     #mainNav {
-      padding-top: 25px;
-      padding-bottom: 25px;
+      /* padding-top: 25px; */
+      /* padding-bottom: 25px;  */
       -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
       transition: padding-top 0.3s, padding-bottom 0.3s;
       border: none;
@@ -308,11 +309,11 @@
     border-color: black;
   }
   
-  @media (min-width: 767px) {
+  /* @media (min-width: 767px) {
     #portfolio .portfolio-item {
       margin: 0 0 30px;
     }
-  }
+  } */
   
   .portfolio-modal {
     padding-right: 0px !important;
@@ -506,7 +507,7 @@
     margin-bottom: 0;
   }
   
-  @media (min-width: 768px) {
+  /* @media (min-width: 768px) {
     .timeline:before {
       left: 50%;
     }
@@ -536,9 +537,9 @@
       padding: 0 30px 20px 20px;
       text-align: left;
     }
-  }
+  } */
   
-  @media (min-width: 992px) {
+  /* @media (min-width: 992px) {
     .timeline > li {
       min-height: 150px;
     }
@@ -558,9 +559,9 @@
     .timeline > li.timeline-inverted > .timeline-panel {
       padding: 0 20px 20px;
     }
-  }
+  } */
   
-  @media (min-width: 1200px) {
+  /* @media (min-width: 1200px) { 
     .timeline > li {
       min-height: 170px;
     }
@@ -578,7 +579,7 @@
     .timeline > li.timeline-inverted > .timeline-panel {
       padding: 0 100px 20px 20px;
     }
-  }
+  } */
   
   .team-member {
     margin-bottom: 50px;
@@ -705,8 +706,9 @@
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 5px;
-    width: 450px;
-    height: 450px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   .thumb:hover {
@@ -740,4 +742,14 @@ h2 {
 
 img#brandlogo {
   size: 3.0em;
+}
+
+.navbar-toggler-right {
+  background-color: black;
+}
+
+@media (min-width: 320px) {
+  #mainNav {
+    background-color: black;
+  }  
 }
